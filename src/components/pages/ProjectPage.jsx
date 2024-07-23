@@ -39,6 +39,7 @@ const projectList = [
 const ProjectPage = () => {
     return (
         <div className="content">
+            <h2>My projects</h2>
             {projectList.map(project => {
                 return (
                     <div key={project.label}> 
