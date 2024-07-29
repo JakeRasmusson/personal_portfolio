@@ -7,7 +7,7 @@ My goal for this project was to create a new portfolio that I can continue to bu
 
 ## Installation
 
-[Deployed Site](https://progressive-web-app-iw31.onrender.com/)
+[Deployed Site](https://main--super-marshmallow-013ee6.netlify.app/)
 
 You can run the app locally by downloading the Github Repo, run 'npm run install', once done run 'npm run start' to build and start the server.  Or you can use the link above to use the hosted render site to interact with the site
   
