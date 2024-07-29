@@ -9,7 +9,7 @@ const AboutPage = () => {
                 <div className='d-flex flex-row justify-content-between w-75'>
                     <div className='w-50 text-center'>
                         <h2>Who am I?</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet quaerat ipsa magnam quae, illo nisi nobis officiis itaque vel voluptatem sunt praesentium laborum quas odio neque animi fugiat aspernatur ut!</p>
+                        <p>Hello, I am Jacob Rasmusson a Web Developer from South East Wisconsin.  When not developing I enjoy cooking, and being outdoors.  If you have a project you'd like to work on please contact me.</p>
                     </div>
                     <div className='w-50 text-center'>
                         <img src={avatar} alt="" />
