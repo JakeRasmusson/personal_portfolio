@@ -1,10 +1,10 @@
 import { NavLink } from "react-router-dom"
 
 
-const contactMethods = [
+const navEls = [
     {
         name: 'About',
-        href: '/about'
+        href: '/'
     },
     {
         name: 'Contact',
@@ -25,9 +25,9 @@ function nav() {
 
     
     return (
-        <div>
-            {contactMethods.map(contactMethod => {
-                return <a href={contactMethod.href} key={contactMethod.name} >{contactMethod.name}</a>
+        <div className="d-flex justify-content-around w-25 align-items-center">
+            {navEls.map(navEl => {
+                return <NavLink className={({ isActive }) => `btn btn-${isActive? 'info' : 'primary'}`} to={navEl.href} key={navEl.name}>{navEl.name}</NavLink>
             })}
 
         </div>
