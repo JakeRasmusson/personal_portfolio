@@ -13,7 +13,7 @@ const jakesSkills = [
 
 const ResumePage = () => {
     return (
-        <div className="About d-flex justify-content-around">
+        <div className="About d-flex justify-content-around p-5">
             <div className='text-center'>
             <h1 className='text-center'>WebDev Know How</h1>
             <a href={resume} download>Download My Resume</a>

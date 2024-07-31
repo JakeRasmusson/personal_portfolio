@@ -15,7 +15,7 @@ const navEls = [
         href: '/projects'
     },
     {
-        name: 'resume',
+        name: 'Resume',
         href: '/resume'
     }
 ]

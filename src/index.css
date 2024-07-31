@@ -21,3 +21,7 @@ ul {
   list-style-type: none;
 }
 
+.footer-image {
+  filter: drop-shadow(8px 8px 10px #fd3777 );
+}
+
