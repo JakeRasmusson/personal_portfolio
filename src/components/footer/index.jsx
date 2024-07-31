@@ -24,12 +24,12 @@ const footerEls = [
 
 const Footer = () => {
     return (
-        <div style={{height: '50px'}} className='d-flex justify-content-around fixed-bottom mh-25 '>
+        <div style={{height: '50px'}} className='d-flex justify-content-around fixed-bottom mh-25 w-100'>
             {footerEls.map(el => {
                 return (
-                    <div className='mh-100 text-center'>
+                    <div key={el.name} className='mh-100 text-center w-100 '>
                     <a target='_blank' className='mh-100 mw-100' href={el.href} key={el.name}>
-                        <img  className='mh-100 mw-100' src={el.img} />
+                        <img  className='mh-100 mw-100 footer-images' src={el.img} />
                     </a>
                     </div>
                 )

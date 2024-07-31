@@ -25,12 +25,15 @@ function nav() {
 
     
     return (
-        <div className="d-flex justify-content-around w-25 align-items-center">
+        <ul className="navbar-nav">
             {navEls.map(navEl => {
-                return <NavLink className={({ isActive }) => `btn btn-${isActive? 'info' : 'primary'}`} to={navEl.href} key={navEl.name}>{navEl.name}</NavLink>
+                return ( <li key={navEl.name} className="nav-item p-2 " >
+                    <NavLink className={({ isActive }) => `btn btn-${isActive? 'info' : 'primary'}`} to={navEl.href} key={navEl.name}>{navEl.name}</NavLink>
+                </li>
+             )
             })}
 
-        </div>
+        </ul>
     )
 }
 

@@ -10,12 +10,14 @@
 body {
   background-color: #241734;
   color: #2de2e6;
+  padding-bottom: 50px;
 }
 
-header {
+nav {
   background-color: #540d6e;
 }
 
 ul {
   list-style-type: none;
 }
+
